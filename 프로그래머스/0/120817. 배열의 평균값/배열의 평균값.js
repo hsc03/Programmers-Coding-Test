@@ -1,0 +1,7 @@
+function solution(numbers) {
+    let result = 0
+    for (let i in numbers) {
+        result += numbers[i];
+    }
+    return result / numbers.length;
+}
