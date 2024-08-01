@@ -16,7 +16,5 @@ function solution(n) {
             break
         }
     }
-    console.log(answer);
-    
     return answer;
 }
